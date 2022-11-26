@@ -72,6 +72,12 @@ header {
 }
 
 button {
+    border: none;
+    cursor: pointer;  
+    background: none;
+}
+
+.cta {
     padding: 9px 25px;
     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border: none;
@@ -81,7 +87,7 @@ button {
     margin-left: 20px 
 }
 
-button:hover {
+.cta:hover {
     background-color: rgba(0, 136, 169, 0.8);
     transform:scale(1.1,1.1);
 }
