@@ -1,3 +1,3 @@
 function ReturnHome() {
-    window.location.replace("racro.xyz");
+    window.location.replace("../index.html");
 }
