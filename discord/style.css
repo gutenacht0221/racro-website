@@ -4,6 +4,8 @@
 * {
     margin: 0;
     padding: 0;
+    overflow: hidden;
+
 }
 
 li, a, button {
@@ -170,4 +172,11 @@ iframe {
     margin-right: auto;
     width: 30%;
     margin-top: 50px;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+    height: 100%;
 }
