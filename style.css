@@ -222,5 +222,27 @@ button {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    
+
+}
+
+.logo-hyperlink {
+    transition: all 0.3s ease 0s;
+}
+
+.logo-hyperlink:hover {
+    animation-name: spin;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+
+    transform:scale(1.1,1.1);
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
