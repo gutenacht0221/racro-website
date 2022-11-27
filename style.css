@@ -228,6 +228,10 @@ button {
     color: #fff;
 }
 
+.logo-hyperlink {
+    transition: all 0.3s ease 0s;
+}
+
 .logo-hyperlink:hover {
     animation-name: spin;
     animation-duration: 250ms;
