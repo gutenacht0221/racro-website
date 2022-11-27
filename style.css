@@ -123,15 +123,9 @@ button {
     position: relative;
     width: 350px;
     padding: 40px;
-<<<<<<< HEAD
     background: #131313;
     box-shadow: 0 5px 15px rgba(0,0,0,.1);
     border-radius: 20px;
-=======
-    background: rgb(20, 20, 20);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
-    border-radius: 4px;
->>>>>>> 0f9dadd16bb5c31c994dcfda6560477be7526e9c
     margin: 20px;
     box-sizing: border-box;
     overflow: hidden;
@@ -239,13 +233,21 @@ button {
     color: #fff;
 }
 
-.logo-hyperlink {
-    transition: all 0.3s ease 0s;
-    animation: spin 2s alternate infinite ease-in-out;
+.logo-hyperlink:hover {
+    animation-name: spin;
+    animation-duration: 250ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    transform:scale(1.1,1.1);
 }
 
-.logo-hyperlink:hover {
-    transform: scale(1.1, 1.1);
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 @keyframes spin {
