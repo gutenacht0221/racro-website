@@ -23,7 +23,8 @@ button {
 }
 
 body {
-    background-color: rgb(10, 10, 10);
+    background-image: url("img/bg.jpg");
+    background-size: cover;
 }
 
 header {
@@ -40,7 +41,8 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0 10%;
-    background-color: rgb(10, 10, 10);
+    background-image: url("img/bg.jpg");
+    background-size: cover;
     padding: 0px 100px;
 }
 
