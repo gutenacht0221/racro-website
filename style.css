@@ -246,5 +246,6 @@ button {
 #particles-js {
     position: absolute;
     width: 100%;
+    pointer-events: none;
     height: 100%;
 }
