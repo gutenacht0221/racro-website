@@ -22,6 +22,11 @@ button {
     color: white;
 }
 
+body {
+    background-image: url("img/bg.jpg");
+    background-size: cover;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -36,12 +41,8 @@ header {
     justify-content: center;
     align-items: center;
     padding: 0 10%;
-    background-color: #000;
-    background-image: url(/img/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("img/bg.jpg");
     background-size: cover;
-    background-attachment: fixed;
     padding: 0px 100px;
 }
 
@@ -106,11 +107,6 @@ button {
     align-items: center;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-image: url(/img/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 .container {
@@ -123,22 +119,15 @@ button {
     position: relative;
     width: 350px;
     padding: 40px;
-<<<<<<< HEAD
-    background: #131313;
-    box-shadow: 0 5px 15px rgba(0,0,0,.1);
-    border-radius: 20px;
-=======
     background: rgb(20, 20, 20);
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     border-radius: 4px;
->>>>>>> 0f9dadd16bb5c31c994dcfda6560477be7526e9c
     margin: 20px;
     box-sizing: border-box;
     overflow: hidden;
     text-align: center;
-    color: #fff; 
+    color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
-
 }
 
 .container .box:before {
@@ -255,4 +244,11 @@ button {
     to {
         transform: rotate(360deg);
     }
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    pointer-events: none;
+    height: 100%;
 }
