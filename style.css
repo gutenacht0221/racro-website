@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* Features */
+
 * {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;  
+    overflow: hidden;
 }
 
-li, a, button {
+li,
+a,
+button {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: ecf0f1;
+    color: #3391ff;
     text-decoration: none;
+}
+
+button {
+    color: white;
 }
 
 header {
@@ -23,7 +30,7 @@ header {
 }
 
 .contain {
- /* make a box to contain all items */
+    /* make a box to contain all items */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,28 +76,28 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #0044a9;
+    color: rgb(86, 222, 255);
 }
 
 button {
     border: none;
-    cursor: pointer;  
+    cursor: pointer;
     background: none;
 }
 
 .cts {
     padding: 9px 25px;
-    background-image: linear-gradient(135deg, #3B4D9D 0%, #764ba2 100%);
+    background-image: linear-gradient(135deg, rgb(19, 40, 137) 0%, rgb(94, 60, 130) 100%);
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin-left: 20px 
+    margin-left: 20px
 }
 
 .cts:hover {
     background-color: rgba(0, 136, 169, 0.8);
-    transform:scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
 
 .body-background {
@@ -116,8 +123,8 @@ button {
     position: relative;
     width: 350px;
     padding: 40px;
-    background: #131313;
-    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    background: rgb(20, 20, 20);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     border-radius: 4px;
     margin: 20px;
     box-sizing: border-box;
@@ -222,27 +229,22 @@ button {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-
 }
 
 .logo-hyperlink {
     transition: all 0.3s ease 0s;
+    animation: spin 2s alternate infinite ease-in-out;
 }
 
 .logo-hyperlink:hover {
-    animation-name: spin;
-    animation-duration: 250ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-
-    transform:scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
 }
 
 @keyframes spin {
     from {
-        transform:rotate(0deg);
+        transform: rotate(0deg);
     }
     to {
-        transform:rotate(360deg);
+        transform: rotate(360deg);
     }
 }
