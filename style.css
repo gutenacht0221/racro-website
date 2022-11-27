@@ -117,14 +117,22 @@ button {
     position: relative;
     width: 350px;
     padding: 40px;
+<<<<<<< HEAD
+    background: #131313;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 20px;
+=======
     background: rgb(20, 20, 20);
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
     border-radius: 4px;
+>>>>>>> 0f9dadd16bb5c31c994dcfda6560477be7526e9c
     margin: 20px;
     box-sizing: border-box;
     overflow: hidden;
     text-align: center;
-    color: #fff
+    color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+
 }
 
 .container .box:before {
